@@ -10,7 +10,7 @@ class JsonStore
 
     public function __construct()
     {
-        $this->url = env('JSON_STORE_ENDPOINT');
+        $this->url = env('MYJSON_ENDPOINT');
     }
 
     public function save(array $data)
@@ -20,7 +20,7 @@ class JsonStore
         }
 
         $client = new Client;
-        $response = $client->request('POST', $this->url, [
+        $response = $client->request('PUT', $this->url, [
             'json' => $data
         ]);
 

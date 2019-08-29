@@ -6,7 +6,7 @@ $dotenv->load();
 
 switch (@parse_url($_SERVER['REQUEST_URI'])['path']) {
     case '/':
-        echo 'visit ' . env('JSON_STORE_ENDPOINT');
+        echo 'visit ' . env('MYJSON_ENDPOINT');
         break;
     case '/update':
         require 'update.php';
