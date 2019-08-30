@@ -11,8 +11,10 @@
         }
     },
     "require": {
+        "php": "^7.1",
         "illuminate/support": "^5.8",
         "vlucas/phpdotenv": "^3.4",
-        "guzzlehttp/guzzle": "^6.3"
+        "guzzlehttp/guzzle": "^6.3",
+        "google/cloud-storage": "^1.14"
     }
 }

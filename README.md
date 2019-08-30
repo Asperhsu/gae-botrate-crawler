@@ -1,6 +1,7 @@
 # env
-- copy .env.example to .env
-- MYJSON_ENDPOINT: json store provider resource restful url. ex: jsonstore.io, myjson.com
+- GOOGLE_APPLICATION_CREDENTIALS: gae credentials.json for locale dev
+- GOOGLE_CLOUD_PROJECT: gae project id
 
-# cron
-- deploy command: gcloud app deploy cron.yaml
+# command
+- deploy app: gcloud app deploy
+- deploy cron: gcloud app deploy cron.yaml
