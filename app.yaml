@@ -1,1 +1,4 @@
 runtime: php72
+
+automatic_scaling:
+  min_instances: 1
