@@ -7,7 +7,7 @@ use GuzzleHttp\Client;
 
 class BotRate
 {
-    protected $url = 'http://rate.bot.com.tw/xrt/flcsv/0/day';
+    protected $url = 'https://rate.bot.com.tw/xrt/flcsv/0/day';
     const COLUMN_MAPPING = [
         'currency' => 0,
         'cash_buying' => 2,

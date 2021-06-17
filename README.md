@@ -1,5 +1,5 @@
 # env
-- GOOGLE_APPLICATION_CREDENTIALS: gae credentials.json for locale dev
+- GOOGLE_APPLICATION_CREDENTIALS: gae credentials.json for local dev
 - GOOGLE_CLOUD_PROJECT: gae project id
 
 # command
